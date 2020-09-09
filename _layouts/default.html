@@ -41,15 +41,17 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="text-align: center;"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+            <div style="text-align: center;">
+                <img src="{{site.logo | relative_url}}" alt="Logo" />
+            </div>
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <p style="text-align: center;">{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p class="view"><a href="https://aitc.co.id">View the Project on AITC <small>Samsul Hadi | CV. Adisatya IT Consultant</small></a></p>
+        <p class="view"><a href="https://aitc.co.id">View the Project on AITC <br /><small>Samsul Hadi | CV. Adisatya IT Consultant</small></a></p>
 
         <p class="view"><a href="https://stackoverflow.com/story/samsulhadi">View My Stories</a></p>
 
