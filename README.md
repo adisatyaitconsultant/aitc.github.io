@@ -1,11 +1,5 @@
 ## How To Install
 
-Buat folder baru
-```
-mkdir mysite
-cd mysite
-```
-
 clone with SSH
 ```
 git clone ssh://git@git.aitc.co.id:8822/adisatya/ceklok/ceklok-page.git
