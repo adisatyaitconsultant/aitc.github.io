@@ -6,7 +6,7 @@ git clone ssh://git@git.aitc.co.id:8822/adisatya/ceklok/ceklok-page.git
 git pull
 ```
 
-checkout ke new branch `2-feat-skeleton-project`
+checkout on new branch `2-feat-skeleton-project`
 ```
 git checkout 2-feat-skeleton-project
 git pull
