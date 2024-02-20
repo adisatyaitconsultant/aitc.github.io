@@ -1,15 +1,9 @@
 ## How To Install
 
-clone with SSH
-```
-git clone ssh://git@git.aitc.co.id:8822/adisatya/ceklok/ceklok-page.git
-git pull
-```
+Clone the project
 
-checkout on new branch `2-feat-skeleton-project`
-```
-git checkout 2-feat-skeleton-project
-git pull
+```bash
+git clone ssh://git@git.aitc.co.id:8822/adisatya/ceklok/ceklok-page.git
 ```
 
 ## How To Run
@@ -17,8 +11,9 @@ git pull
 build docker-composer.yml
 
 Remember you need to wait for your site to build before you will be able to see your changes.
-```
+
+```bash
 docker-compose up -d --build  
 ```
 
-run local server with same defaults listening on port 4000:
+run local server with same defaults listening on port http://localhost:4000/
