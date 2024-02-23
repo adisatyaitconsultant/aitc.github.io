@@ -196,9 +196,6 @@ table td { border: 1px solid #e8e8e8; }
     display: flex;
 }
 
-/** Site footer */
-/* .site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; } */
-/* .site-footer { border-top: 1px solid #3387d4; background-color: #3387d4; padding: 30px 0; } */
 .site-footer {
     background-color: #3387d4;
     padding-left: 10%;
@@ -283,7 +280,7 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 /** Page content */
-.page-content { padding: 30px 0;
+.page-content {
     flex: 1;
     background-color: transparent; 
 }
@@ -460,14 +457,18 @@ table td { border: 1px solid #e8e8e8; }
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 30px;
-    background-size: 100% 100%;
 }
 
 .main-content-3 {
     font-family: 'Poppins', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
-    padding-bottom: 30px;
+    padding-top: 150px;
+    background-size: cover;
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0;
 }
 
 .main-content-4 {
@@ -476,6 +477,40 @@ table td { border: 1px solid #e8e8e8; }
     padding-right: 10%;
     padding-bottom: 30px;
 }
+
+.main-content-5 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-size: cover;
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat;
+}
+
+.main-content-6 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.main-content-7 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom:250px;
+    text-align: center;
+}
+
+.main-content-8 {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 10%;
+}
+
 .content-1 {
 
 }
@@ -494,6 +529,35 @@ table td { border: 1px solid #e8e8e8; }
     width: auto;
     justify-content: center;
     align-items: center;
+}
+
+.content-img-3 {
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.content-img-4 {
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    margin: 20px 50px;
+}
+
+.content-img-5 {
+    width: 800px;
+    height: auto;
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+.content-img-8 {
+    height: 550px;
+    width: auto;
+    position: absolute; 
+    bottom: -30px; 
+    right: 100px;
 }
 
 .content-h1-1 {
@@ -578,6 +642,19 @@ table td { border: 1px solid #e8e8e8; }
     text-align: center;
 }
 
+.content-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.content-row-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .content-img {
     height: 150px;
     width: auto;
@@ -586,11 +663,26 @@ table td { border: 1px solid #e8e8e8; }
     margin-top: 40px;
 }
 
-/* .content-carousel {
-    padding-left: 10%;
-    padding-right: 10%;
-} */
-
 .content-btn {
     padding-left: 22%;
+}
+
+
+.content-card-6 {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.content.card-7 {
+    width: 300px;
+    border: 1px solid  #3387d4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Ini akan membuat card berada di tengah secara horizontal */
 }
