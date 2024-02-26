@@ -124,11 +124,11 @@ table td { border: 1px solid #e8e8e8; }
 
 @media screen and (max-width: 600px) {
     .container-fluid .navbar-toggler {
-        border-color: #3387d4; /* Warna border */
-        background-color: white; /* Warna background */
-        border-radius: 5px; /* Sudut border */
-        padding: 10px; /* Padding tombol */
-        outline: none; /* Hilangkan outline */
+        border-color: #3387d4;
+        background-color: white; 
+        border-radius: 5px; 
+        padding: 10px; 
+        outline: none; 
     }
 
     .container-fluid .navbar-toggler-icon {
@@ -136,7 +136,7 @@ table td { border: 1px solid #e8e8e8; }
     }
 
     .container-fluid .navbar-toggler:hover {
-        background-color: #f5f5f5; /* Warna background saat hover */
+        background-color: #f5f5f5;
     }
 
     .site-nav { 
@@ -215,7 +215,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .vertical-line {
     border-left: 1px solid #a4a4a4;
-    height: 50px; /* Sesuaikan tinggi garis vertikal */
+    height: 50px;
     padding: 0px;
     margin: 0px;
 }
@@ -223,6 +223,17 @@ table td { border: 1px solid #e8e8e8; }
 .container {
     display: flex;
 }
+
+.navbar .container-fluid {
+    padding: 0 10%;
+    background-color: transparent;
+}
+
+.nav-item .nav-link {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 .site-footer {
     background-color: #3387d4;
