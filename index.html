@@ -29,54 +29,65 @@
 
 <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-down.css' rel='stylesheet'>
 </head>
-<body style="background: url(assets/images/ellipse-1.png); position: absolute; background-repeat: no-repeat; width: 100%;background-size: 100% 600px;">
+<body class="body" style="background: url(assets/images/ellipse-1.png);
+    display: flex; 
+    min-height: 100vh; 
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif; 
+    position: absolute; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    background-size: 100% 800px;">
   <header class="site-header" role="banner">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary wrapper">
-        <div class="container-fluid">
-            <img class="nav-img" src="/assets/images/ceklok-nav.png" alt="">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle navbar-link" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            PRODUK
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Penggajian Pegawai</a></li>
-                            <li><a class="dropdown-item" href="#">Manajemen Kepegawaian</a></li>
-                            <li><a class="dropdown-item" href="#">Laporan Presensi Kehadiran</a></li>
-                            <li><a class="dropdown-item" href="#">Laporan Overtime</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-link" href="#">FITUR</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-link" href="#">HARGA</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="navbar-link" href="#">TENTANG KAMI</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-flex">
-                <button class="btn" style="font-size: 20px;" type="button">MASUK</button>
-                <button class="btn" style="font-size: 20px; color: #3387d4; border: 2px solid #3387d4; border-radius: 25px;" type="button">DAFTAR</button>
-            </div>
-            <div class="vertical-line mx-2"></div>
-            <div>
-              <li class="nav-item dropdown" style="list-style-type: none;">
-                <a class="nav-link dropdown-toggle navbar-link" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    ID
-                </a>
-                <ul class="dropdown-menu" >
-                    <li><a class="dropdown-item" href="#">.......</a></li>
-                    <li><a class="dropdown-item" href="#">.......</a></li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-expand-lg">
+      <div class="container-fluid">
+        <img class="nav-img" src="/assets/images/ceklok-nav.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle navbar-link" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                PRODUK
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Penggajian Pegawai</a></li>
+                <li><a class="dropdown-item" href="#">Manajemen Kepegawaian</a></li>
+                <li><a class="dropdown-item" href="#">Laporan Presensi Kehadiran</a></li>
+                <li><a class="dropdown-item" href="#">Laporan Overtime</a></li>
+              </ul>
             </li>
-            </div>
+            <li class="nav-item">
+              <a class="navbar-link" href="#">FITUR</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-link" href="#">HARGA</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-link" href="#">TENTANG KAMI</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <button class="btn" style="font-size: 20px;" type="button">MASUK</button>
+            <button class="btn" style="font-size: 20px; color: #3387d4; border: 2px solid #3387d4; border-radius: 25px;" type="button">DAFTAR</button>
+          </div>
+          <div class="vertical-line mx-2"></div>
+          <div>
+            <li class="nav-item dropdown" style="list-style-type: none;">
+              <a class="nav-link dropdown-toggle navbar-link" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ID
+              </a>
+              <ul class="dropdown-menu" >
+                <li><a class="dropdown-item" href="#">.......</a></li>
+                <li><a class="dropdown-item" href="#">.......</a></li>
+              </ul>
+            </li>
+          </div>
         </div>
+      </div>
     </nav>
-</header>
+  </header>
 
 <main class="page-content" aria-label="Content">
   <div class="main-content-1">
@@ -87,79 +98,87 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-6">
-                <h1 class="content-h1-1">Tempat Untuk Mengelola Informasi Jam Kehadiran Anda</h1>
-                <h2 class="content-h2-1">CEKLOK memberikan solusi digital untuk membantu Anda meningkatkan kedisiplinan  kehadiran jam kerja. Kombinasi titik lokasi dan waktu presensi yang realtime dan akurat. </h2>
-                <div class="content-btn-1">
-                  <button type="button" class="btn btn-primary" style="padding: 10px 20px;">COBA GRATIS</button>
-                  <button type="button" class="btn" style="background-color: transparent; border: 2px solid #3387d4; color: #3387d4; padding: 10px 20px;">
-                    <img style="width: 20px; height: auto;" src="assets/images/play_circle_filled_white_24px.png" alt=""> COBA DEMO PRODUK</button>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <img src="assets/images/carousel-1.png" class="content-img-carousel" alt="...">
+          <div class="row">
+            <div class="col-md-5">
+              <h1>Tempat Untuk Mengelola Informasi Jam Kehadiran Anda</h1>
+              <h3>CEKLOK memberikan solusi digital untuk membantu Anda meningkatkan kedisiplinan  kehadiran jam kerja. Kombinasi titik lokasi dan waktu presensi yang realtime dan akurat. </h3>
+              <div class="content-btn-1">
+                <button type="button" class="btn btn-primary">COBA GRATIS</button>
+                <button type="button" class="btn" style="background-color: transparent; border: 2px solid #3387d4; color: #3387d4; padding: 10px 20px;">
+                  <img style="width: 20px; height: auto;" src="assets/images/play_circle_filled_white_24px.png" alt=""> COBA DEMO PRODUK</button>
               </div>
             </div>
+            <div class="col-md-7">
+              <img src="assets/images/carousel-1.png" class="img" alt="...">
+            </div>
+          </div>
         </div>
         <div class="carousel-item">
-          <div class="ms-5 me-5 mt-5">
-            <div class="row">
-              <div class="col-md-6">
-                Kapasitas wajah: 500 | Kapasitas sidik jari: 2.000 | Kapasitas kartu: 10.000 | Kapasitas transaksi log: 100.000 | Koneksi PC: TCP/IP/RS232/485
-              </div>
-              <div class="col-md-6">
-                <img src="assets/images/carousel-2.png" class="content-img-carousel" alt="...">
-              </div>
+          <div class="row">
+            <div class="col-md-5">
+              <h1>Mesin Absensi Fingerprint Ceklok</h1>
+              <h3>Meningkatkan Kedisiplinan Kehadiran Kerja Anda</h3>
+              <h2>Sepesifikasi:</h2>
+              <h3>Kapasitas wajah: 500 | Kapasitas sidik jari: 2.000 | 
+                Kapasitas kartu: 10.000 | Kapasitas transaksi log: 100.000 | 
+                Koneksi PC: TCP/IP/RS232/485</h3>
+                <div class="content-btn-1">
+                  <button type="button" class="btn btn-primary">COBA GRATIS</button>
+                  <button type="button" class="btn" style="">
+                    <img style="width: 20px; height: auto;" src="assets/images/play_circle_filled_white_24px.png" alt=""> COBA DEMO PRODUK</button>
+                </div>
+            </div>
+            <div class="col-md-7">
+              <img src="assets/images/carousel-2.png" class="img" alt="...">
             </div>
           </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
   <div class="main-content-2">
     <div class="content-2">
       <h1>MENGAPA MEMILIH KAMI</h1>
-      <h2>Proses yang mudah, dengan fitur terbaik</h2>
+      <h3>Proses yang mudah, dengan fitur terbaik</h3>
     </div>
     <div class="row" style="display: flex; text-align: center;">
       <div class="col-md-4">
         <img src="assets/images/kehadiran 1.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Presensi Kehadiran</h3>
-        <p class="content-p-2">Mengelola data presensi masuk dan pulang pegawai secara realtime</p>
+        <h3>Presensi Kehadiran</h3>
+        <p>Mengelola data presensi masuk dan pulang pegawai secara realtime</p>
       </div>
       <div class="col-md-4">
         <img src="assets/images/maps.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Lokasi Saya</h3>
-        <p class="content-p-2">Titik lokasi presensi yang tepat dan akurat</p>
+        <h3>Lokasi Saya</h3>
+        <p>Titik lokasi presensi yang tepat dan akurat</p>
       </div>
       <div class="col-md-4">
         <img src="assets/images/absensi.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Absensi Saya</h3>
-        <p class="content-p-2">Menampilkan data dispensasi/cuti/izin yang telah disetujui atasan</p>
+        <h3>Absensi Saya</h3>
+        <p>Menampilkan data dispensasi/cuti/izin yang telah disetujui atasan</p>
       </div>
       <div class="col-md-4">
         <img src="assets/images/overtime.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Jam Lembur</h3>
-        <p class="content-p-2">Manajemen overtime bagi pegawai dengan mudah</p>
+        <h3>Jam Lembur</h3>
+        <p>Manajemen overtime bagi pegawai dengan mudah</p>
       </div>
       <div class="col-md-4">
         <img src="assets/images/profile.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Profil Saya</h3>
-        <p class="content-p-2">Data identitas diri yang secure, update foto profil yang kekinian dengan cepat</p>
+        <h3>Profil Saya</h3>
+        <p>Data identitas diri yang secure, update foto profil yang kekinian dengan cepat</p>
       </div>
       <div class="col-md-4">
         <img src="assets/images/salary.png" class="content-img-2" alt="">
-        <h3 class="content-h3-1">Slip Gaji</h3>
-        <p class="content-p-2">Update data penerimaan pegawai masing-masing di setiap bulan</p>
+        <h3>Slip Gaji</h3>
+        <p>Update data penerimaan pegawai masing-masing di setiap bulan</p>
       </div>
     </div>
   </div>
@@ -172,49 +191,49 @@
       <div class="col-md-6">
         <img class="content-img-3" src="assets/images/presensi.png" alt="">
       </div>
-      <div class="col-md-6">
-        <div class="content-row-3">
-          <div class="col-md-2">
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col-sm-2 ">
             <img src="assets/images/blue-checklist.png" alt="">
           </div>
-          <div class="col-md-10">
-            <h6 class="content-h6-3">CEKLOK Masuk dan Pulang</h6>
-            <p class="content-p-3">Absen datang dan pulang sangat fleksibel, hanya dengan sekali tekan</p>
+          <div class="col-sm-10">
+            <h5>CEKLOK Masuk dan Pulang</h5>
+            <p>Absen datang dan pulang sangat fleksibel, hanya dengan sekali tekan</p>
           </div>
         </div>
-        <div class="content-row-3">
-          <div class="col-md-2">
+        <div class="row">
+          <div class="col-sm-2">
             <img src="assets/images/blue-checklist.png" alt="">
           </div>
-          <div class="col-md-10">
-            <h6 class="content-h6-3">Grafik Kehadiran Real Time</h6>
+          <div class="col-sm-10">
+            <h5>Grafik Kehadiran Real Time</h5>
             <p class="content-p-3">Menampilkan Kehadiran Realtime</p>
           </div>
         </div>
-        <div class="content-row-3">
-          <div class="col-md-2">
+        <div class="row">
+          <div class="col-sm-2">
             <img src="assets/images/blue-checklist.png" alt="">
           </div>
-          <div class="col-md-10">
-            <h6 class="content-h6-3">peringatan Terlambat</h6>
+          <div class="col-sm-10">
+            <h5>peringatan Terlambat</h5>
             <p class="content-p-3">Notifikasi keterlambatan, perbaiki waktu Ceklok kehadiran Anda</p>
           </div>
         </div>
-        <div class="content-row-3">
-          <div class="col-md-2">
+        <div class="row">
+          <div class="col-sm-2">
             <img src="assets/images/blue-checklist.png" alt="">
           </div>
-          <div class="col-md-10">
-            <h6 class="content-h6-3">Fitur Troubleshooting</h6>
+          <div class="col-sm-10">
+            <h5>Fitur Troubleshooting</h5>
             <p class="content-p-3">laporan type</p>
           </div>
         </div>
-        <div class="content-row-3">
-          <div class="col-md-2">
+        <div class="row">
+          <div class="col-sm-2">
             <img src="assets/images/blue-checklist.png" alt="">
           </div>
-          <div class="col-md-10">
-            <h6 class="content-h6-3">Intregasi Data</h6>
+          <div class="col-sm-10">
+            <h5>Intregasi Data</h5>
             <p class="content-p-3">laporan data presensi website dan mobile yang tersinkronasi secara realtime</p>
           </div>
         </div>
@@ -223,9 +242,9 @@
   </div>
   <div class="main-content-4">
     <div class="row">
-      <div class="col-md-6">
-        <h1 class="content-h1-3">Mobile <br> Time Tracking</h1>
-        <h2 class="content-h2-2">Teknologi pengenalan wajah, presensi dipermudah dengan selfie dan menggunakan teknologi geolokasi untuk memastikan Anda berada di tempat yang tepat dengan waktu yang tepat.</h2>
+      <div class="col-md-6 c-1">
+        <h1>Mobile <br> Time Tracking</h1>
+        <h3>Teknologi pengenalan wajah, presensi dipermudah dengan selfie dan menggunakan teknologi geolokasi untuk memastikan Anda berada di tempat yang tepat dengan waktu yang tepat.</h3>
       </div>
       <div class="col-md-6">
         <img class="content-img-4" src="assets/images/mobile.png" alt="">
@@ -237,37 +256,45 @@
       <div class="col-md-7">
         <img class="content-img-5" src="assets/images/web-time-tracking.png" alt="">
       </div>
-      <div class="col-md-5" style="padding-top: 200px;">
-        <h1 class="content-h1-3">Web Time Tracking</h1>
-        <h2 class="content-h2-2">Laporan total jam kerja, total jam lembur, dan laporan absensi pegawai secara harian dan bulanan. Kelola entri waktu dan jam kerja sebagai jadwal tetap pegawai. </h2>
+      <div class="col-md-5">
+        <h1>Web Time <br> Tracking</h1>
+        <h3>Laporan total jam kerja, total jam lembur, dan laporan absensi pegawai secara harian dan bulanan. Kelola entri waktu dan jam kerja sebagai jadwal tetap pegawai. </h3>
       </div>
     </div>
   </div>
   <div class="main-content-6">
-    <h1 class="content-h1-2">APA KATA MEREKA</h1>
+    <h1>APA KATA MEREKA?</h1>
     <div class="row">
       <div class="col-md-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Mudah untuk digunakan</h5>
-            <p class="card-text">Saya menyukai tampilan laporan grafik
-              yang ada diweb dashboardnya. Mudah
-              untuk dipahami dan lengkap menampilkan
-              statistik kehadiran pegawai.  </p>
-              <hr style="width: 100px; border-top: 1px solid #000000;">
-              <p>M. Bahrul Yahya</p>
+            <div>
+              <h5 class="card-title">Mudah untuk digunakan</h5>
+              <p class="card-text">Saya menyukai tampilan laporan grafik
+                yang ada diweb dashboardnya. Mudah
+                untuk dipahami dan lengkap menampilkan
+                statistik kehadiran pegawai.</p>
+            </div>
+            <div class="card-bottom">
+            <hr style="width: 100px; border-top: 1px solid #000000;">
+            <p>M. Bahrul Yahya</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Ceklok sangat bekerja</h5>
-            <p class="card-text">Aplikasi Ceklok sangat membantu saya
-              dan memudahkan saya melakukan
-              presensi.</p>
+            <div>
+              <h5 class="card-title">Ceklok sangat bekerja</h5>
+              <p class="card-text">Aplikasi Ceklok sangat membantu saya
+                dan memudahkan saya melakukan
+                presensi.</p>
+            </div>
+            <div class="card-bottom">
               <hr style="width: 100px; border-top: 1px solid #000000;">
               <p>Okta Aditya</p>
+            </div>
           </div>
         </div>
       </div>
@@ -321,26 +348,26 @@
     </div>
   </div>
   <div class="main-content-7" style="background-image: url(assets/images/bg-4.png);">
-    <div>
-      <h1 class="content-h1-2">FAQs</h1>
-      <h2 class="content-h2-2">Beberapa pertanyaan yang sering diajukan...</h2>
+    <div class="content-7">
+      <h1>FAQs</h1>
+      <h3>Beberapa pertanyaan yang sering diajukan...</h3>
     </div>
-    <div class="card" style="background-color: transparent; border: 2px solid #3387d4;">
-      <div class="d-grid gap-2" style="margin: 10px;">
-        <button type="button" class="btn" style="background-color: white; border: 1px solid #3387d4; color: black; padding: 10px 20px; text-align: start; padding: 20px; font-size: 25px;">Apa itu Ceklok 
-          <i class="gg-arrow-long-down" style="display: flex; float: right; padding-top: 35px;"></i>
+    <div class="card">
+      <div class="d-grid gap-2">
+        <button type="button" class="btn">Apa itu Ceklok 
+          <i class="gg-arrow-long-down"></i>
         </button>
-        <button type="button" class="btn" style="background-color: white; border: 1px solid #3387d4; color: black; padding: 10px 20px; text-align: start; padding: 20px; font-size: 25px;">Bagaimana cara melakukan presensi masuk? 
-          <i class="gg-arrow-long-down" style="display: flex; float: right; padding-top: 35px;"></i>
+        <button type="button" class="btn">Bagaimana cara melakukan presensi masuk? 
+          <i class="gg-arrow-long-down"></i>
         </button>
-        <button type="button" class="btn" style="background-color: white; border: 1px solid #3387d4; color: black; padding: 10px 20px; text-align: start; padding: 20px; font-size: 25px;">Bagaimana pengelolaan data kepegawaian?
-          <i class="gg-arrow-long-down" style="display: flex; float: right; padding-top: 35px;"></i>
+        <button type="button" class="btn">Bagaimana pengelolaan data kepegawaian?
+          <i class="gg-arrow-long-down"></i>
         </button>
-        <button type="button" class="btn" style="background-color: white; border: 1px solid #3387d4; color: black; padding: 10px 20px; text-align: start; padding: 20px; font-size: 25px;">Seperti apa bentuk laporan statistik bulanan pegawai? 
-          <i class="gg-arrow-long-down" style="display: flex; float: right; padding-top: 35px;"></i>
+        <button type="button" class="btn">Seperti apa bentuk laporan statistik bulanan pegawai? 
+          <i class="gg-arrow-long-down"></i>
         </button>
-        <button type="button" class="btn" style="background-color: white; border: 1px solid #3387d4; color: black; padding: 10px 20px; text-align: start; padding: 20px; font-size: 25px;">Bagiaman laporan gaji pegawai? 
-          <i class="gg-arrow-long-down" style="display: flex; float: right; padding-top: 35px;"></i>
+        <button type="button" class="btn">Bagiaman laporan gaji pegawai? 
+          <i class="gg-arrow-long-down"></i>
         </button>
       </div>
     </div>
@@ -348,10 +375,9 @@
   <div class="main-content-8">
     <div class="row">
       <div class="col-md-6">
-        <h1 class="content-h1-3">Mulai kelola jadwal jam kerja
-          pegawai Anda</h1>
-        <h2 class="content-h2-2">Dapatkan Ceklok dengan perangkat lunak kelola jam kehadiran...</h2>
-        <button type="button" class="btn btn-primary" style="padding: 10px 20px; box-shadow: 0 2px 10px #3387d4;">Online Demo</button>
+        <h1>Mulai kelola jadwal jam kerja pegawai Anda</h1>
+        <h3>Dapatkan Ceklok dengan perangkat lunak kelola jam kehadiran...</h3>
+        <button type="button" class="btn btn-primary">Online Demo</button>
       </div>
       <div class="col-md-6" style="position: relative;">
         <img class="content-img-8" src="assets/images/home-landing-page.png" alt="">
