@@ -588,6 +588,13 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 @media (max-width: 414px) {
+
+    .carousel-item .row {
+        padding: 0 10%;
+        display: flex;
+        min-height: 996px;
+    }
+
     .col-md-6 h1 {
         font-size: 32px;
         font-weight: 600;
@@ -635,12 +642,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .main-content-2 {
     margin-bottom: 30px;
-}
-
-.carousel-item .row {
-    padding: 0 10%;
-    display: flex;
-    min-height: 996px;
 }
 
 .content-2 h1 {
