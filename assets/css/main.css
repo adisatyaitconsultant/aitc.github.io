@@ -530,12 +530,12 @@ table td { border: 1px solid #e8e8e8; }
 .main-content-1 {
     font-family: 'Poppins', sans-serif;
     padding: 20px 0;
-    height: auto;
 }
 
 .carousel-item .row {
     padding: 0 10%;
     display: flex;
+    min-height: 650px;
 }
 
 .col-md-6 h1 {
@@ -637,6 +637,12 @@ table td { border: 1px solid #e8e8e8; }
     margin-bottom: 30px;
 }
 
+.carousel-item .row {
+    padding: 0 10%;
+    display: flex;
+    min-height: 996px;
+}
+
 .content-2 h1 {
     font-size: 40px;
     font-weight: 600;
@@ -733,6 +739,10 @@ table td { border: 1px solid #e8e8e8; }
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 20px;
+}
+
+.row .col-2 {
+    padding: 0;
 }
 
 @media (max-width: 414px) {
