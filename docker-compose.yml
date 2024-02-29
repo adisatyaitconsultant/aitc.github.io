@@ -4,7 +4,7 @@ services:
   apps:
     build: 
       context: .
-    command: sh -c "bundle exec jekyll serve"
+    command: sh -c "bundle exec jekyll serve --trace --incremental"
     expose:
       - 5000
     volumes:
