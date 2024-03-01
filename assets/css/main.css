@@ -948,7 +948,7 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 /* Main Content 6 */
-.main-content-6 {
+.review-content {
     font-family: 'Poppins', sans-serif;
     padding-left: 10%;
     padding-right: 10%;
@@ -956,26 +956,26 @@ table td { border: 1px solid #e8e8e8; }
     padding-top: 30px;
 }
 
-.main-content-6 h1 {
+.review-content h1 {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 30px;
 }
 
-.main-content-6 .card {
+.review-content .card {
     height: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.main-content-6 .row {
+.review-content .row {
     margin-bottom: 20px;
 }
 
-.main-content-6 .col-md-4 {
+.review-content .col-md-4 {
     margin-bottom: 10px;
 }
 
-.main-content-6 .card-title {
+.review-content .card-title {
     text-align: start;
 }
 
