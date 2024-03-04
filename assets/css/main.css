@@ -538,12 +538,17 @@ table td { border: 1px solid #e8e8e8; }
     min-height: 650px;
 }
 
+.carousel-item .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .col-md-6 h1 {
     font-size: 45px;
     font-weight: 600;
     line-height: 1.5;
     text-align: start;
-    margin-top: 100px;
 }
 
 .col-md-6 h3 {
@@ -1157,13 +1162,13 @@ table td { border: 1px solid #e8e8e8; }
 .produk-content-1 .row {
     padding-top: 15px;
     padding-bottom: 15px;
+    display: flex;
 }
 
 .produk-content-1 .row .col-md-6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -1216,7 +1221,6 @@ table td { border: 1px solid #e8e8e8; }
         font-weight: 400;
         line-height: 1.5;
         text-align: start;
-        padding-bottom: 30px;
     }
 }
 
