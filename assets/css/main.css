@@ -947,7 +947,7 @@ table td { border: 1px solid #e8e8e8; }
     }
 }
 
-/* Main Content 6 */
+/* Review Content*/
 .review-content {
     font-family: 'Poppins', sans-serif;
     padding-left: 10%;
@@ -980,6 +980,11 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 @media (max-width: 414px) {
+    .review-content h1 {
+        font-size: 32px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
 }
 
 /* FAQ's */
@@ -1320,9 +1325,8 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 .produk-content-3 .row img {
-    font-size: 45px;
     width: 600px;
-    height: 0;
+    height: auto;
 }
 
 @media (max-width:414px) {
@@ -1348,6 +1352,7 @@ table td { border: 1px solid #e8e8e8; }
         font-weight: 400;
         line-height: 1.5;
     }
+
 }
 
 /* produk content 4 */
@@ -1369,6 +1374,10 @@ table td { border: 1px solid #e8e8e8; }
 .produk-content-4 .row .col-md-6 h1 {
     text-align: start;
     margin: 0;
+}
+
+.produk-content-4 .row .col-md-6 img {
+    box-shadow: 0 10px 20px #3387d4;
 }
 
 @media (max-width:414px) {
