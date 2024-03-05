@@ -2061,3 +2061,78 @@ table td { border: 1px solid #e8e8e8; }
         padding-bottom: 30px;
     }
 }
+
+/* Page Penggajian */
+
+/* Penggajian Content 1 */
+.penggajian-content-1 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+
+.penggajian-content-1 .row {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.penggajian-content-1 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.penggajian-content-1 img {
+    width: 680px;
+    height: auto;
+}
+
+.penggajian-content-1 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.penggajian-content-1 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 414px) {
+
+    .penggajian-content-1 .row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .penggajian-content-1 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .penggajian-content-1 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+    }
+
+    .penggajian-content-1 .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+    }
+}
