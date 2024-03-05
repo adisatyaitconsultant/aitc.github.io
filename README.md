@@ -38,9 +38,15 @@ cp -R _site/ adisatyaitconsultant.github.io/
 Then commit and push the changes
 
 ```bash
+# push submodule
 cd adisatyaitconsultant.github.io
 git add -A
 git commit -m "<change message>"
+git push
+
+# update the main repo
+git add adisatyaitconsultant.github.io # or -A if want to include other changes
+git commit -m "feat: update submodule"
 git push
 ```
 
