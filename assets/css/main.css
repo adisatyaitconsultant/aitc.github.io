@@ -1154,8 +1154,10 @@ table td { border: 1px solid #e8e8e8; }
 .produk-content-1 {
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
-    background-size: 100% 1000px;
+    background-size: 100% 850px;
     background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
 }
 
 .produk-content-1 .row {
@@ -1193,6 +1195,12 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 @media (max-width: 414px) {
+    .produk-content-1 {
+        padding: 0 10%;
+        font-family: 'Poppins', sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover
+    }
 
     .produk-content-1 .row {
         padding-top: 15px;
@@ -1926,8 +1934,10 @@ table td { border: 1px solid #e8e8e8; }
 .overtime-content-1 {
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
-    background-size: 100% 1000px;
+    background-size: 100% 850px;
     background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
 }
 
 .overtime-content-1 .row {
@@ -1995,7 +2005,7 @@ table td { border: 1px solid #e8e8e8; }
     }
 }
 
-/* Content Kepegawaian 2 */
+/* Overtime Content 2 */
 .overtime-content-2 {
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
@@ -2068,8 +2078,10 @@ table td { border: 1px solid #e8e8e8; }
 .penggajian-content-1 {
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
-    background-size: 100% 1000px;
+    background-size: 100% 850px;
     background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
 }
 
 .penggajian-content-1 .row {
@@ -2108,6 +2120,13 @@ table td { border: 1px solid #e8e8e8; }
 
 @media (max-width: 414px) {
 
+    .penggajian-content-1 {
+        padding: 0 10%;
+        font-family: 'Poppins', sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .penggajian-content-1 .row {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -2134,5 +2153,273 @@ table td { border: 1px solid #e8e8e8; }
         font-weight: 400;
         line-height: 1.5;
         text-align: start;
+    }
+}
+
+/* Penggajian Content 2 */
+.penggajian-content-2 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    width: 100%; 
+    height: auto;
+}
+
+.penggajian-content-2 .row {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.penggajian-content-2 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.penggajian-content-2 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    margin: 0;
+}
+
+.penggajian-content-2 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 414px) {
+
+    .penggajian-content-2 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+
+    .penggajian-content-2 .row {
+        padding-top: 40px;
+    }
+
+    .penggajian-content-2 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .penggajian-content-2  .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 30px;
+    }
+}
+
+/* Penggajian Content 3 */
+.penggajian-content-3{
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.penggajian-content-3 .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.penggajian-content-3 .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.penggajian-content-3 .row .col-md-6 h1 {
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.penggajian-content-3 .row .col-md-6 h3 {
+    text-align: start;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.penggajian-content-3 .row img {
+    width: 600px;
+    height: auto;
+}
+
+@media (max-width:414px) {
+    .penggajian-content-3 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .penggajian-content-3 .row .col-md-6 h1 {
+        text-align: start;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .penggajian-content-3 .row .col-md-6 h3 {
+        text-align: start;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* Penggajian Content 4 */
+.penggajian-content-4 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+    width: 100%; 
+    height: auto;
+}
+
+.penggajian-content-4 .row {
+    padding-top: 10%;
+    padding-bottom: 15px;
+}
+
+.penggajian-content-4 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.penggajian-content-4 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    margin: 0;
+}
+
+.penggajian-content-4 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 414px) {
+
+    .penggajian-content-4 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+
+    .penggajian-content-4 .row {
+        padding-top: 40px;
+    }
+
+    .penggajian-content-4 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .penggajian-content-4  .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 30px;
+    }
+}
+
+/* Penggajian Content 5 */
+.penggajian-content-5{
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100% 850px;
+    background-repeat: no-repeat;
+    height: 900px;
+    width: auto;
+}
+
+.penggajian-content-5 .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.penggajian-content-5 .row .col-md-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.penggajian-content-5 .row .col-md-6 h1 {
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.penggajian-content-5 .row .col-md-6 h3 {
+    text-align: start;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.penggajian-content-5 .row img {
+    width: 600px;
+    height: auto;
+}
+
+@media (max-width:414px) {
+    .penggajian-content-5 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .penggajian-content-5 .row .col-md-6 h1 {
+        text-align: start;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .penggajian-content-5 .row .col-md-6 h3 {
+        text-align: start;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
     }
 }
