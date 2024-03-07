@@ -1,5 +1,4 @@
 ---
-layout: default
 title: produk
 ---
 <!DOCTYPE html>
@@ -47,6 +46,10 @@ title: produk
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-down.css' rel='stylesheet'>
 </head>
 <body>
+
+  <!-- Header -->
+  {% include header.html %}
+
     <main class="page-content" aria-label="Content">
       <div class="produk-content-1" style="background-image: url(assets/images/bg-3.png);">
         <div class="row">
@@ -175,7 +178,9 @@ title: produk
         </div>
       </div>
     </main>
-  </div>
+
+  <!-- Footer -->
+  {% include footer.html %}
 </body>
 </html>
 

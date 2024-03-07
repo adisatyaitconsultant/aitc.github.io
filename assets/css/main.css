@@ -541,6 +541,14 @@ table td { border: 1px solid #e8e8e8; }
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.carousel-item .row .col-md-6 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-md-6 h1 {
@@ -558,7 +566,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .img-carousel-1 {
     display: flex;
-    width: 100%;
+    width: 650px;
     height: auto;
 }
 
@@ -2751,6 +2759,397 @@ table td { border: 1px solid #e8e8e8; }
     }
 
     .penggajian-content-6 .img {
+        width: 100px;
+        height: auto;
+        position: absolute; 
+        bottom: -30px; 
+        right: 0;
+    }
+}
+
+/* Page Presensi */
+
+/* presensi Content 1 */
+.presensi-content-1 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.presensi-content-1 .row {
+    padding-top: 15px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.presensi-content-1 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.presensi-content-1 .row .col-md-6 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presensi-content-1 img {
+    width: 650px;
+    height: auto;
+}
+
+.presensi-content-1 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.presensi-content-1 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 414px) {
+
+    .presensi-content-1 {
+        padding: 0 10%;
+        font-family: 'Poppins', sans-serif;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .presensi-content-1 .row {
+        padding-top: 15px;
+        padding-bottom: 100px;
+    }
+
+    .presensi-content-1 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .presensi-content-1 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+    }
+
+    .presensi-content-1 .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+    }
+}
+
+/* Content Presensi 2 */
+.presensi-content-2 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presensi-content-2 .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.presensi-content-2 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% auto;
+}
+
+.presensi-content-2 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.presensi-content-2 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+
+@media (max-width: 414px) {
+
+    .presensi-content-2 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding-top: 10px;
+        padding-bottom: 10px;  
+    }
+
+    .presensi-content-2 .row {
+        padding-top: 40px;
+    }
+
+    .presensi-content-2 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .presensi-content-2  .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 30px;
+        margin: 0;
+    }
+}
+
+/* Presensi Content 3 */
+
+.presensi-content-3{
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presensi-content-3 .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presensi-content-3 .row .col-md-4 {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.presensi-content-3 .row .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.presensi-content-3 .row .col-md-4 h1 {
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.presensi-content-3 .row .col-md-4 h3 {
+    text-align: start;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.presensi-content-3 .row img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:414px) {
+    .presensi-content-3 .row .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .presensi-content-3 .row .col-md-8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .presensi-content-3 .row .col-md-4 h1 {
+        text-align: start;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .presensi-content-3 .row .col-md-4 h3 {
+        text-align: start;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* Presensi Content 4 */
+
+.presensi-content-4{
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presensi-content-4 .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presensi-content-4 .row .col-md-4 {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.presensi-content-4 .row .col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.presensi-content-4 .row .col-md-4 h1 {
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.presensi-content-4 .row .col-md-4 h3 {
+    text-align: start;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.presensi-content-4 .row img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width:414px) {
+    .presensi-content-4 .row .col-md-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .presensi-content-4 .row .col-md-8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .presensi-content-4 .row .col-md-4 h1 {
+        text-align: start;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .presensi-content-4 .row .col-md-4 h3 {
+        text-align: start;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* Presensi Content 6 */
+.presensi-content-5 {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 10%;
+}
+
+.presensi-content-5 h1 {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: start;
+    padding-bottom: 10px;
+}
+
+.presensi-content-5 h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: start;
+    padding-bottom: 30px;
+}
+
+.presensi-content-5 .btn {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #3387d4;
+    border: none;
+    padding: 10px 20px; 
+    box-shadow: 0 2px 10px #3387d4;
+}
+
+.presensi-content-5 .img {
+    width: 500px;
+    height: auto;
+    position: absolute; 
+    bottom: 0; 
+    right: 100px;
+}
+
+@media (max-width: 414px) {
+    .presensi-content-5 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 10px;
+    }
+
+    .presensi-content-5 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+        padding-bottom: 30px;
+    }
+
+    .btn.btn-primary {
+        font-size: 18px;
+    }
+
+    .presensi-content-5 .img {
         width: 100px;
         height: auto;
         position: absolute; 
