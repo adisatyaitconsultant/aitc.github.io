@@ -714,11 +714,11 @@ table td { border: 1px solid #e8e8e8; }
     margin: 0;
 }
 
-.content-3 {
+.main-content-3 .content-3 {
     padding-bottom: 100px;
 }
 
-.content-img-3 {
+.main-content-3 .content-img-3 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -726,48 +726,48 @@ table td { border: 1px solid #e8e8e8; }
     height: auto;
 }
 
-.content-3 h1 {
+.main-content-3 .content-3 h1 {
     font-size: 40px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.content-3 h3 { 
+.main-content-3 .content-3 h3 { 
     font-weight: 400;
 }
 
-.row .col-10 h5 {
+.main-content-3 .row .col-10 h5 {
     font-weight: 600;
     text-align: start;
 }
 
-.row .col-10 p {
+.main-content-3 .row .col-10 p {
     font-weight: 400;
     text-align: start;
     margin-bottom: 0px;
 }
 
-.row .col-md-6 .row {
+.main-content-3 .row .col-md-6 .row {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     padding-bottom: 20px;
 }
 
-.row .col-2 {
+.main-content-3 .row .col-2 {
     padding: 0;
 }
 
 @media (max-width: 414px) {
-    .content-3 {
+    .main-content-3 .content-3 {
         padding-bottom: 32px;
     }
 
-    .content-3 h1 {
+    .main-content-3 .content-3 h1 {
         font-size: 32px;
     }
 
-    .content-3 h3 {
+    .main-content-3 .content-3 h3 {
         font-size: 24px;
     }
 
@@ -779,21 +779,21 @@ table td { border: 1px solid #e8e8e8; }
         height: auto;
     }
 
-    .row .col-sm-10 h5 {
+    .main-content-3 .row .col-sm-10 h5 {
         font-size: 16px;
     }
     
-    .row .col-sm-10 p {
+    .main-content-3 .row .col-sm-10 p {
         font-size: 14px;
     }
 
-    .col-md-6 .row .col-sm-2 {
+    .main-content-3 .col-md-6 .row .col-sm-2 {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
     }
     
-    .col-md-6 .row .col-sm-10 {
+    .main-content-3 .col-md-6 .row .col-sm-10 {
         display: flex;
         flex-wrap: wrap;
     }
@@ -904,17 +904,6 @@ table td { border: 1px solid #e8e8e8; }
     line-height: 1.5;
 }
 
-.rating {
-    display: flex;
-    margin: 10px 0;
-}
-
-.rating .star {
-    display: flex;
-    width: 25px;
-    height: auto;
-}
-
 .col-md-4 .card .card-body {
     display: flex;
     flex-direction: column;
@@ -989,6 +978,17 @@ table td { border: 1px solid #e8e8e8; }
 
 .review-content .card-title {
     text-align: start;
+}
+
+.rating {
+    display: flex;
+    margin: 10px 0;
+}
+
+.rating .star {
+    display: flex;
+    width: 25px;
+    height: auto;
 }
 
 @media (max-width: 414px) {
@@ -1911,7 +1911,6 @@ table td { border: 1px solid #e8e8e8; }
 }
 
 /* Kepegawaian Content 3 */
-
 .kepegawaian-content-3{
     padding: 0 10%;
     font-family: 'Poppins', sans-serif;
@@ -3155,6 +3154,371 @@ table td { border: 1px solid #e8e8e8; }
         position: absolute; 
         bottom: -30px; 
         right: 0;
+    }
+}
+
+/* Page Garansi */
+
+/* garansi Content 1 */
+.garansi-content-1 {
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+
+.garansi-content-1 .row {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.garansi-content-1 .row .col-md-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.garansi-content-1 img {
+    width: 680px;
+    height: auto;
+}
+
+.garansi-content-1 .row .col-md-6 h1 {
+    font-size: 45px;
+    text-align: start;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.garansi-content-1 .row .col-md-6 h3 {
+    font-size: 24px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media (max-width: 414px) {
+
+    .garansi-content-1 .row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .garansi-content-1 .row .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .garansi-content-1 .row .col-md-6 h1 {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+        text-align: start;
+    }
+
+    .garansi-content-1 .row .col-md-6 h3 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: start;
+    }
+}
+
+/* Garansi Content 2 */
+.garansi-content-2 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 150px;
+    background-size: cover;
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0;
+}
+
+.garansi-content-2 .row {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.garansi-content-2 .row .col-md-6 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.garansi-content-2 .row .col-md-6 .img {
+    width: 715px;
+    height: auto;
+}
+
+.garansi-content-2 .row .col-10 h5 {
+    font-weight: 600;
+    text-align: start;
+}
+
+.garansi-content-2 .row .col-10 p {
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+.garansi-content-2 .row .col-md-6 .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.garansi-content-2 .row .col-md-6 .row .col-2 {
+    padding-bottom: 10px;
+}
+
+.garansi-content-2 .row .col-md-6 .row .col-2 img {
+    width: 70px;
+    height: auto;
+}
+
+@media (max-width: 414px) {
+    .garansi-content-2 .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+
+    .garansi-content-2 .row .col-md-6 .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .garansi-content-2 .row .col-md-6 .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+
+    .garansi-content-2 .row .col-10 h5 {
+        font-size: 16px;
+    }
+    
+    .garansi-content-2 .row .col-10 p {
+        font-size: 14px;
+    }
+
+    .garansi-content-2 .col-md-6 .row .col-2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0;
+    }
+
+    .garansi-content-2 .col-md-6 .row .col-2 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .garansi-content-2 .col-md-6 .row .col-10 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* Garansi Content 3 */
+.garansi-content-3{
+    padding: 0 10%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.garansi-content-3 .row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.garansi-content-3 .row .col-md-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.garansi-content-3 .row .col-md-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.garansi-content-3 .row .col-md-5 h1 {
+    text-align: start;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.garansi-content-3 .row .col-md-5 h3 {
+    text-align: start;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.garansi-content-3 .row img {
+    width: 700px;
+    height: auto;
+}
+
+.garansi-content-3 .btn {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #3387d4;
+    border: none;
+    padding: 10px 20px; 
+    box-shadow: 0 2px 10px #3387d4;
+}
+
+@media (max-width:414px) {
+    .garansi-content-3 .row .col-md-5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .garansi-content-3 .row .col-md-7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center ;
+        padding: 20px auto 20px auto;  
+    }
+
+    .garansi-content-3 .row .col-md-5 h1 {
+        text-align: start;
+        margin: 0;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .garansi-content-3 .row .col-md-5 h3 {
+        text-align: start;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+}
+
+/* Garansi Content 4 */
+.garansi-content-4 {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    background-size: cover;
+    width: 100%; 
+    height: 100%; 
+    background-repeat: no-repeat;
+}
+
+.garansi-content-4 .row {
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-img-5 {
+    width: 540px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.garansi-content-4 .col-md-5 {
+    padding-top: 190px;
+}
+
+.garansi-content-4 h1 {
+    text-align: start;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.garansi-content-4 h3 {
+    padding-right: 40px;
+    text-align: start;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.col-md-4 .card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-bottom p {
+    margin-bottom: 0px;
+  }
+
+@media (max-width: 414px) {
+    .garansi-content-4 .row {
+        padding: 0;
+    }
+
+    .garansi-content-4 .col-md-5 {
+        padding-top: 20px;
+    }
+
+    .content-img-5 {
+        width: 500px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .garansi-content-4 .col-md-7 {
+        padding: 0;
+    }
+
+    .garansi-content-4 h1 {
+        text-align: start;
+        font-size: 32px;
+        font-weight: 600;
+    }
+    
+    .garansi-content-4 h3 {
+        text-align: start;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
     }
 }
 
