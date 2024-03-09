@@ -239,10 +239,23 @@ table td { border: 1px solid #e8e8e8; }
     padding: 0.5rem 1rem;
 }
 
-.dropdown-menu {
+.nav-item .dropdown-menu {
     font-size: 16px;
     color: #000;
     font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid .collapse .navbar-nav .nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: rgba(0, 0, 0, .55);
+}
+
+.container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: #0085FF;
+}
+
+.container-fluid .collapse .navbar-nav .nav-item .nav-link:focus {
+    color: #0085FF;
 }
 
 .vertical-line {
@@ -266,15 +279,27 @@ table td { border: 1px solid #e8e8e8; }
     font-weight: 600;
 }
 
-.d-flex .btn {
+.d-flex .d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-@media (max-width: 414px) {
-    
-    
+.d-flex .d-flex a {
+    padding-right: 20px;
+    color: rgba(0, 0, 0, .55);
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.d-flex .d-flex a:hover {
+    color: #0085FF;
+}
+
+.d-flex .d-flex a:focus {
+    color: #0085FF;
 }
 
 .site-footer {
