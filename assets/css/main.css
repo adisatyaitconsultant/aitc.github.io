@@ -4063,3 +4063,20 @@ padding: 100px 0;
         right: 30px;
     }
 }
+
+/* 404 */
+.not-found {
+    font-family: 'Poppins' sans-serif;
+    padding-bottom: 50px;
+}
+
+.not-found h3 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.not-found h1 {
+    font-size: 210px;
+    font-weight: bolder;
+    margin-bottom: -40px;
+}
