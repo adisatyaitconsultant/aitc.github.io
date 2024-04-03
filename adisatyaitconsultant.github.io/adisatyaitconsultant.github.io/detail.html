@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>detail</title>
+    <meta name="description" content="ceklok">
+    <link rel="canonical" href="http://0.0.0.0:4000/">
+    <meta property="og:title" content="ceklok">
+    <meta property="og:locale" content="en_ID">
+    <meta property="og:description" content="ceklok">
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "Ceklok",
+        "url": "http://0.0.0.0:5000/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Kelapa No. 80A, Kel. Ketami",
+          "addressLocality": "Kediri",
+          "addressRegion": "East Java",
+          "postalCode": "64139",
+          "addressCountry": "ID"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+6288227107255",
+          "contactType": "customer service",
+          "email": "admin@aitc.co.id"
+        }
+      }
+    </script>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:5000/feed.xml" title="Ceklok" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-down.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
+</head>
+<body>
+    <header>
+        <header class="site-header" role="banner">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a href="http://localhost:4000">
+                <img class="nav-img" src="/assets/images/ceklok-nav.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-0 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link"href="http://localhost:4000">BERANDA</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: 'Poppins', sans-serif;">
+                            PRODUK
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="detail">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header1.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Mesin Fingerprint Ceklok CK150</h5>
+                                            <p>Mempunyai banyak fitur dan memberikan tingkat keamanan yang tinggi.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="garansi">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header2.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Form Garansi Mesin Fingerprint</h5>
+                                            <p>Memberikan garansi terbatas ini kepada setiap konsumen.</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="font-family: 'Poppins', sans-serif;">
+                            FITUR
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" href="penggajian">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header3.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Penggajian Pegawai</h5>
+                                            <p>Lewati perhitungan manual dengan pengaturan laporan tagihan, gaji dan insentif pegawai</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="kepegawaian">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header4.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Manajemen Kepegawaian</h5>
+                                            <p>Data pegawai aktif dan non aktif yang terinci detail</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="presensi">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header5.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Laporan Presensi Kehadiran</h5>
+                                            <p>Riwayat presensi masuk dan pulang pegawai yang terupdate sesuai waktu nyata di websiten maupun mobile</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="overtime">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="/assets/images/icon-header6.png" alt="">
+                                        </div>
+                                        <div class="col-10">
+                                            <h5>Laporan Overtime</h5>
+                                            <p>Detail jam mulai dan selesai lembur
+                                                terakumulasi dengan sistematis</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="#">HARGA</a>
+                    </li>
+                    <li class="nav-item item">
+                        <a class="nav-link"href="#">TENTANG KAMI</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <div class="d-flex">
+                        <a href="#">MASUK</a>
+                        <button class="btn btn-primary" style="font-size: 20px; font-weight: 600; color: #3387d4; border: 2px solid #3387d4; border-radius: 25px; background-color: transparent;" type="button">DAFTAR</button>
+                    </div>
+                    <div class="vertical-line mx-2"></div>
+                    <div class="order-lg-last" style="margin-left: auto;">
+                        <li class="nav-item dropdown" style="list-style-type: none;">
+                            <a class="nav-link dropdown-toggle navbar-link" style="color: rgba(0, 0, 0, .55)" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                ID
+                            </a>
+                            <ul class="dropdown-menu" >
+                                <li><a class="dropdown-item" href="#">.......</a></li>
+                                <li><a class="dropdown-item" href="#">.......</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+    </header>
+    
+    <main>
+              <div class="detail-content-1" style="background-image: url(assets/images/bg-3.png);">
+        <img class="img-bg" src="assets/images/ellipse 69.png" alt="">
+        <div class="row">
+          <div class="col-md-4">
+            <h1>Ceklok CK150 security sistem</h1>
+            <h3>Kombinasi mesin absensi sidik jari, absensi wajah dan akses kontrol pintu terbaik dan terdepan saat ini.</h3>
+            <div class="content-btn-1">
+              <button type="button" class="btn btn-primary">COBA GRATIS</button>
+              <button type="button" class="btn" style="background-color: transparent; border: 2px solid #3387d4; color: #3387d4; padding: 10px 20px;">
+                <img style="width: 20px; height: auto;" src="assets/images/play_circle_filled_white_24px.png" alt=""> COBA DEMO PRODUK
+              </button>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <img src="assets/images/img-detail-1.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="detail-content-2">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/images/img-detail-2.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <h1>Tentang Ceklok CK150 </h1>
+            <h3>Dengan desain modern dan antarmuka pengguna yang interaktif, alat ini mudah digunakan dan memberikan tingkat keamanan yang tinggi untuk kontrol akses dan manajemen waktu kehadiran.</h3>
+          </div>
+        </div>
+      </div>
+      <div class="detail-content-3" style="background-image: url(assets/images/bg-4.png);">
+        <div class="content-3">
+          <h1>Spesifikasi Ceklok CK150</h1>
+          <h3>Mempunyai banyak spesfikasi diantaranya:</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-1.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Kapasitas wajah</h5>
+                <p>Ceklok CK150 memiliki fitur yang dapat menyimpan hingga 500 templat wajah </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-2.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Kapasitas sidik jari</h5>
+                <p>Ceklok CK150 memiliki fitur yang dapat menyimpan hingga 2.000 templat sidik jari </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-3.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Kapasitas transaksi </h5>
+                <p>Ceklok CK150 memiliki fitur yang dapat menyimpan hingga 100.000 transaksi log</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/img-detail-3.png" alt="">
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-4.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Mendukung identifikasi kartu</h5>
+                <p>Ceklok CK150 memiliki fitur yang dapat menyimpan hingga 100.000 transaksi log </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-5.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Koneksi PC</h5>
+                <p>Perangkat lunak manajemen yang mudah digunakan untuk konfigurasi dan pelaporan kehadiran yang mudah </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img src="assets/images/icon-detail-6.png" alt="">
+              </div>
+              <div class="col-10">
+                <h5>Jenis Komunikasi</h5>
+                <p>Koneksi PC : TCP/IP/RS232/485</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="detail-content-4">
+        <img class="img-bg" src="assets/images/ellipse 74.png" alt="">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/images/img-detail-4.png" alt="">
+          </div>
+          <div class="col-md-6">
+            <h1>Download File </h1>
+            <h3>Di bawah ini adalah user manual dan attendance management  produk kami yang dapat Anda unduh</h3>
+            <div class="content-btn-1">
+              <button type="button" class="btn btn-primary">COBA GRATIS</button>
+              <button type="button" class="btn" style="background-color: transparent; border: 2px solid #3387d4; color: #3387d4; padding: 10px 20px;">
+                <img style="width: 20px; height: auto;" src="assets/images/play_circle_filled_white_24px.png" alt=""> COBA DEMO PRODUK
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Line -->
+      <div class="line" style="background-image: url(assets/images/line.png);"></div>
+
+      <!-- Review Content -->
+      <div class="review-content">
+    <h1>APA KATA MEREKA?</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Mudah untuk digunakan</h5>
+              <div class="rating">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-line.png" alt="">
+              </div>
+              <p class="card-text">Saya menyukai tampilan laporan grafik
+                yang ada diweb dashboardnya. Mudah
+                untuk dipahami dan lengkap menampilkan
+                statistik kehadiran pegawai.</p>
+            </div>
+            <div class="card-bottom">
+            <hr style="width: 200px; border-top: 1px solid #000000;">
+            <p>M. Bahrul Yahya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <div>
+              <h5 class="card-title">Ceklok sangat bekerja</h5>
+              <div class="rating">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+                <img class="star" src="assets/images/star-solid.png" alt="">
+              </div>
+              <p class="card-text">Aplikasi Ceklok sangat membantu saya
+                dan memudahkan saya melakukan
+                presensi.</p>
+            </div>
+            <div class="card-bottom">
+              <hr style="width: 200px; border-top: 1px solid #000000;">
+              <p>Okta Aditya</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Aplikasi Tracking Jam Kerja terbaik</h5>
+            <div class="rating">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/half-star-solid.png" alt="">
+            </div>
+            <p class="card-text">Sangat mudah melihat detail titik lokasi
+              presensi masuk dan pulang. Jam datang
+              dan pulang yang sangat transaparan.</p>
+              <div class="card-bottom">
+                <hr style="width: 200px; border-top: 1px solid #000000;">
+                <p>Ragil Anggara</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Laporan gaji yang detail</h5>
+            <div class="rating">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+            </div>
+            <p class="card-text">Terdapat fitur slip gaji yang menampilkan
+              detail penerimaan gaji dan potongan yang
+              jelas. </p>
+              <div class="card-bottom">
+                <hr style="width: 200px; border-top: 1px solid #000000;">
+                <p>Anadesi</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Aplikasi kehadiran terbaik</h5>
+            <div class="rating">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-line.png" alt="">
+            </div>
+            <p class="card-text">Aplikasinya mudah digunakan, mudah 
+              untuk melacak lokasi presensi pegawai
+              dan menampilkan keterlambatan pegawai.</p>
+              <div class="card-bottom">
+                <hr style="width: 200px; border-top: 1px solid #000000;">
+                <p>Dewi Nasa K.</p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Deteksi wajah sangat mudah</h5>
+            <div class="rating">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+              <img class="star" src="assets/images/star-solid.png" alt="">
+            </div>
+            <p class="card-text">Pengenalan wajah di aplikasi ini sangat
+              bagus dan sangat mudah. </p>
+              <div class="card-bottom">
+                <hr style="width: 200px; border-top: 1px solid #000000;">
+                <p>Roni Ahmadi</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+      <!-- Review Content -->
+      <div class="faq-content" style="background-image: url(assets/images/bg-4.png);">
+  <div class="faq">
+    <h1>FAQs</h1>
+    <h3>Beberapa pertanyaan yang sering diajukan...</h3>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <div class="panel-group" id="accordion">
+        <div class="card mb-3">
+          <div class="card-header" id="headingExample1" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
+            <div class="card-body">
+              Apa itu Ceklok?
+              <i class="gg-arrow-long-down"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample1">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias eum beatae, nihil iure ullam tempore vitae repellendus perspiciatis, voluptatem et fugiat fuga necessitatibus pariatur quia. Iusto nisi nulla temporibus?
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header" id="headingExample2" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
+            <div class="card-body">
+              Bagaimana cara melakukan presensi masuk?
+              <i class="gg-arrow-long-down"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample2">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias eum beatae, nihil iure ullam tempore vitae repellendus perspiciatis, voluptatem et fugiat fuga necessitatibus pariatur quia. Iusto nisi nulla temporibus?
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header" id="headingExample3" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
+            <div class="card-body">
+              Bagaimana pengelolaan data kepegawaian?
+              <i class="gg-arrow-long-down"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample3">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias eum beatae, nihil iure ullam tempore vitae repellendus perspiciatis, voluptatem et fugiat fuga necessitatibus pariatur quia. Iusto nisi nulla temporibus?
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header" id="headingExample4" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
+            <div class="card-body">
+              Seperti apa bentuk laporan statistik bulanan pegawai?
+              <i class="gg-arrow-long-down"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample4">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias eum beatae, nihil iure ullam tempore vitae repellendus perspiciatis, voluptatem et fugiat fuga necessitatibus pariatur quia. Iusto nisi nulla temporibus?
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header" id="headingExample5" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
+            <div class="card-body">
+              Bagaimana laporan gaji pegawai?
+              <i class="gg-arrow-long-down"></i>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample5">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias eum beatae, nihil iure ullam tempore vitae repellendus perspiciatis, voluptatem et fugiat fuga necessitatibus pariatur quia. Iusto nisi nulla temporibus?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <div class="detail-content-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Menyederhanakan Solusi Keamanan untuk Anda</h1>
+            <h3>Pada Ceklok CK150 kami memangkas kerumitan sistem keamanan...</h3>
+          </div>
+          <div class="col-md-6" style="position: relative;">
+            <img class="img" src="assets/images/bg-page-1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        <footer class="site-footer">
+    <div class="container-footer">
+      <div class="footer footer-content-1">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="footer-p">PRODUK</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">Ceklok App</a></li>
+              <li class="footer-li"><a class="footer-a" href="#">Web Presensi Kehadiran</a></li>
+            </ul>
+            <p class="footer-p">PERUSAHAAN</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">Tentang Kami</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <p class="footer-p">SOLUSI</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">Fitur</a></li>
+              <li class="footer-li"><a class="footer-a" href="#">Harga</a></li>
+            </ul>
+            <p class="footer-p">INFORMASI</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">Pusat Bantuan</a></li>
+              <li class="footer-li"><a class="footer-a" href="#">Upgrade Plans</a></li>
+              <li class="footer-li"><a class="footer-a" href="#">Ketentuan Pembelian</a></li>
+              <li class="footer-li"><a class="footer-a" href="garansi">Ketentuan Garansi</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer footer-content-2">
+        <div class="row-2">
+          <img src="/assets/images/ceklok.png" class="footer-icon-1" alt="">
+          <div class="col">
+            <p class="footer-p">Kantor</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">Jl. Kelapa No. 80A, Kel. Ketami, Kec. Pesantren, Kota Kediri, Jawa Timur 64139</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="footer-p">Email</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">support@ceklok.com</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <p class="footer-p">No. Telp</p>
+            <ul class="footer-ul">
+              <li class="footer-li"><a class="footer-a" href="#">088227107255</a></li>
+            </ul>
+          </div>
+          <div>
+            <img src="assets/images/ps.png" class="footer-icon-2" alt="">
+            <img src="assets/images/app-store.png" class="footer-icon-2" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="height:2px;border-width:0;color:white;">
+    <div class="copyright">
+        <p>Copyright &copy; 2024 CV. Adisatya IT Consultant</p>
+    </div>
+  </footer>
+    </footer>
+</body>
+</html>
