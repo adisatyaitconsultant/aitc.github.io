@@ -1,0 +1,132 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto; 
+        background-color: #EDF7FF;
+        height: 580px;
+    }
+
+    .container2 {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff; 
+        height: 580px;
+        display: flex;
+        flex-direction: row-reverse; /* Menempatkan gambar di sebelah kiri */
+    }
+
+    .rows_container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .feature_desc {
+        margin-top: 10%;
+        font-size: 14px;
+        color: #3E3E3E;
+    }
+
+    .feature_desc_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .feature_desc h1 {
+        font-size: 39px;
+        margin-right: 4%;
+    }
+
+    .feature_desc p {
+        font-size: 20px;
+    }
+    
+    .feature_desc img {
+        width: 30%;
+        margin-top: 40;
+    }
+
+    .feature_desc_container .feature_desc {
+        flex: 1;
+        padding-right: 15px;
+    }
+
+    .konten {
+        margin-top: 10%;
+        flex: 1;
+        margin: 10px;
+    }
+
+    .konten img {
+        width: 90%;
+        border: 0;
+    }
+
+    @media (max-width: 768px) {
+        .container, .container2 {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .konten img {
+            width: 100%;
+            height: auto;
+        }
+    }
+</style>
+
+<body>
+<div class="container">
+    <div class="rows_container">
+        <div class="feature_desc_container">
+            <div class="feature_desc">
+                <h1>Lebih banyak fitur. Kelola data dengan fitur yang beragam</h1>
+                <p>CEKLOK memberikan beragam fitur-fitur yang lengkap sesuai dengan kebutuhan Anda. Sistem yang sudah dijamin oleh beberapa perusahaan.</p>
+                <img src="assets/images/button.png">
+                <img src="assets/images/button coba.png">
+            </div>
+            <div class="konten">
+                <img src="assets/images/bg-page-1.png" alt="Gambar Fitur 1">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="rows_container">
+        <div class="feature_desc_container">
+            <div class="konten">
+                <img src="assets/images/Tambah jadwal jam kerja .png" alt="Gambar Fitur 2">
+            </div>
+            <div class="feature_desc">
+                <h1>Tambah Jadwal Jam Kerja</h1>
+                <p>Tambah jadwal jam kerja pegawai dari waktu datang, pulang hingga jam lembur</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="rows_container">
+        <div class="feature_desc_container">
+            <div class="feature_desc">
+                <h1>Tracking Presensi Kehadiran</h1>
+                <p>Lacak kehadiran pegawai dimanapun dan kapanpun tanpa batasan waktu</p>
+            </div>
+            <div class="konten">
+                <img src="assets/images/Group 292.png" alt="Gambar Fitur 3">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
