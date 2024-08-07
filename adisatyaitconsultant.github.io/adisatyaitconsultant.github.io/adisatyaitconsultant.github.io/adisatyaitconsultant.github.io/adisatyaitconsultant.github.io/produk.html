@@ -41,6 +41,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-long-down.css' rel='stylesheet'>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.png">
 </head>
 <body>
 
@@ -48,7 +49,9 @@
   <header class="site-header" role="banner">
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <img class="nav-img" src="/assets/images/ceklok-nav.png" alt="">
+            <a href="http://localhost:4000">
+                <img class="nav-img" src="/assets/images/ceklok-nav.png" alt="">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -59,31 +62,31 @@
                             PRODUK
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" style="font-family: 'Poppins', sans-serif;" href="#">Penggajian Pegawai</a></li>
-                            <li><a class="dropdown-item" style="font-family: 'Poppins', sans-serif;" href="#">Manajemen Kepegawaian</a></li>
-                            <li><a class="dropdown-item" style="font-family: 'Poppins', sans-serif;" href="#">Laporan Presensi Kehadiran</a></li>
-                            <li><a class="dropdown-item" style="font-family: 'Poppins', sans-serif;" href="#">Laporan Overtime</a></li>
+                            <li><a class="dropdown-item" href="penggajian">Penggajian Pegawai</a></li>
+                            <li><a class="dropdown-item" href="kepegawaian">Manajemen Kepegawaian</a></li>
+                            <li><a class="dropdown-item" href="presensi">Laporan Presensi Kehadiran</a></li>
+                            <li><a class="dropdown-item" href="overtime">Laporan Overtime</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="font-family: 'Poppins', sans-serif;" href="#">FITUR</a>
+                        <a class="nav-link"href="#">FITUR</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" style="font-family: 'Poppins', sans-serif;" href="#">HARGA</a>
+                        <a class="nav-link"href="#">HARGA</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="font-family: 'Poppins', sans-serif;" href="#">TENTANG KAMI</a>
+                    <li class="nav-item item">
+                        <a class="nav-link"href="#">TENTANG KAMI</a>
                     </li>
                 </ul>
                 <div class="d-flex">
-                    <div class="d-flex ">
-                        <button class="btn" type="button">MASUK</button>
-                        <button class="btn btn-primary" style="font-size: 20px; color: #3387d4; border: 2px solid #3387d4; border-radius: 25px; background-color: transparent;" type="button">DAFTAR</button>
+                    <div class="d-flex">
+                        <a href="#">MASUK</a>
+                        <button class="btn btn-primary" style="font-size: 20px; font-weight: 600; color: #3387d4; border: 2px solid #3387d4; border-radius: 25px; background-color: transparent;" type="button">DAFTAR</button>
                     </div>
                     <div class="vertical-line mx-2"></div>
                     <div class="order-lg-last" style="margin-left: auto;">
                         <li class="nav-item dropdown" style="list-style-type: none;">
-                            <a class="nav-link dropdown-toggle navbar-link" style="color: black;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle navbar-link" style="color: rgba(0, 0, 0, .55)" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 ID
                             </a>
                             <ul class="dropdown-menu" >
@@ -412,7 +415,7 @@
               <li class="footer-li"><a class="footer-a" href="#">Pusat Bantuan</a></li>
               <li class="footer-li"><a class="footer-a" href="#">Upgrade Plans</a></li>
               <li class="footer-li"><a class="footer-a" href="#">Ketentuan Pembelian Ceklok</a></li>
-              <li class="footer-li"><a class="footer-a" href="#">Ketentuan Garansi Ceklok</a></li>
+              <li class="footer-li"><a class="footer-a" href="garansi">Ketentuan Garansi Ceklok</a></li>
             </ul>
           </div>
         </div>
